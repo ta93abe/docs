@@ -9,6 +9,7 @@ const config: DocsThemeConfig = {
   editLink: {
     text: "",
   },
+  navigation: false,
   feedback: {
     content: () => <> Question? Give me feedback →</>,
     labels: "feedback",
