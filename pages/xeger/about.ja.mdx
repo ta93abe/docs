@@ -1,2 +1,25 @@
+import Image from "next/image";
+import Xeger1 from "@/public/xeger1.png";
+import Xeger2 from "@/public/xeger2.png";
+import Xeger3 from "@/public/xeger3.png";
+
 # Xeger について
 
+Xeger は、正規表現をチェックするためのアプリです．
+
+
+## 使い方
+
+Xeger を開くと 2 つのテキストボックスがあることが確認できます．
+
+<Image src={Xeger1} />
+
+上のテキストボックスには正規表現を入力します．
+
+下のテキストボックスには文字列を入力します．
+
+| <Image src={Xeger2} width={256} /> | <Image src={Xeger3} width={256} /> |
+| :---: | :---: |
+| <div className="text-lime-400">○</div> | <div className="text-rose-600">×</div> |
+
+上の画像のように、正規表現にマッチする文字列の場合は文字列が緑色になります．マッチしない場合は赤色になります．
